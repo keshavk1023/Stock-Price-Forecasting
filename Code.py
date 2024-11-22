@@ -32,7 +32,7 @@ class Stock:
         options.add_argument("--start-maximized")
         
         if chromedriver_path is None:
-            chromedriver_path = 'C:\\Users\\vikne\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\chromedriver.exe'
+            chromedriver_path = 'C:\\Users\\kkeshav\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\chromedriver.exe'
         
         
         driver = webdriver.Chrome(chromedriver_path, desired_capabilities = caps, options = options)
